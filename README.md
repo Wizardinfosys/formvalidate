@@ -19,7 +19,7 @@ Easy to use this plugin in our site.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-East  to validate my form.
+Easy  to validate my form.
 
 	(1)required : add "required" class in which field you need required field validation.
  	(2)email : add "email" class in which filed you need email field validation.
@@ -31,7 +31,7 @@ East  to validate my form.
 	
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-East to set custome validation message.
+Easy to set custome validation message.
 ```js
 $(target_form).submit(function () {
     $(this).SfromValidate({
@@ -63,7 +63,7 @@ $(target_form).submit(function () {
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-Easy to change border color instead of validation message ?
+Easy to change border color instead of validation message.
 ```js
 $(target_form).submit(function () {
     $(this).SfromValidate({
@@ -73,7 +73,7 @@ $(target_form).submit(function () {
 });
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
-Easy to show response message from form targated file
+Easy to show response message from form targated file.
 ```js
 $(target_form).submit(function () {
     $(this).SfromValidate({
@@ -83,7 +83,7 @@ $(target_form).submit(function () {
 });
  ```                
 -----------------------------------------------------------------------------------------------------------------------------------------
-Easy to set fix limit of field value
+Easy to set fix limit of field value.
 ```js
 $(target_form).submit(function () {
     $(this).SfromValidate({
@@ -93,7 +93,7 @@ $(target_form).submit(function () {
 });
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------
-Easy to avoid use form submit using ajax
+Easy to avoid use form submit using ajax.
 ```js
 var $response = $(this).SfromValidate({
     show_response: true,
@@ -108,19 +108,19 @@ if ($response == 'true') {
 })
   ```               
 -----------------------------------------------------------------------------------------------------------------------------------------
-Easy to set validation message position
+Easy to set validation message position.
 ```js
 $(this).SfromValidate({
    validation_message_position : $('.class_name_where_validation_msg_show')
 })
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------
-Easy to set custom validation message
+Easy to set custom validation message.
 
      <input type="text" class="required" data-validation="Loan value field is reqired" name="ur_loan_value">	
                
 -----------------------------------------------------------------------------------------------------------------------------------------
-Easy to choose if you don't want loader
+Easy to choose if you don't want loader.
 ```js
 $(this).SfromValidate({
     hide_loader : true
